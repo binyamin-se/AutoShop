@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="840" viewBox="0 0 1280 840">
+  <rect width="1280" height="840" fill="#0f172a"/>
+  <rect x="60" y="60" width="1160" height="720" rx="30" fill="#0f4c81"/>
+  <text x="640" y="400" text-anchor="middle" fill="#ffffff" font-size="64" font-family="Arial">Brakes - After</text>
+</svg>

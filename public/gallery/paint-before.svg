@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="840" viewBox="0 0 1280 840">
+  <rect width="1280" height="840" fill="#0b1324"/>
+  <rect x="60" y="60" width="1160" height="720" rx="30" fill="#334155"/>
+  <text x="640" y="400" text-anchor="middle" fill="#f1f5f9" font-size="62" font-family="Arial">Paint - Before</text>
+</svg>
