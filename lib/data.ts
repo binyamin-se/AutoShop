@@ -7,6 +7,14 @@ export type ServiceItem = {
   href: string;
 };
 
+export type GalleryItem = {
+  id: string;
+  src: string;
+  alt: string;
+  title: string;
+  category: "Mechanical" | "Body Work" | "Paint" | "Detailing" | "Shop";
+};
+
 export const quickServices = [
   { title: "Diagnostics / Check Engine", href: "/services#diagnostics" },
   { title: "Brakes", href: "/services#brakes" },
@@ -156,5 +164,92 @@ export const faqItems = [
     question: "Can I request a collision quote online?",
     answer:
       "Yes. Use our estimate form and add photos for a faster preliminary body-work quote."
+  }
+];
+
+export const galleryItems: GalleryItem[] = [
+  {
+    id: "g1",
+    src: "/images/white-car.jpg",
+    alt: "White vehicle on lift inside shop",
+    title: "Drivetrain inspection bay",
+    category: "Mechanical"
+  },
+  {
+    id: "g2",
+    src: "/images/shop-interior.jpg",
+    alt: "Shop interior with multiple service bays",
+    title: "Advanced scan and bay workflow",
+    category: "Mechanical"
+  },
+  {
+    id: "g3",
+    src: "/images/wash-bay.jpg",
+    alt: "Pressure wash detail bay",
+    title: "Post-repair wash and handoff prep",
+    category: "Detailing"
+  },
+  {
+    id: "g4",
+    src: "/images/supercar-shop.jpg",
+    alt: "Premium vehicle in clean modern shop",
+    title: "Precision body panel alignment",
+    category: "Body Work"
+  },
+  {
+    id: "g5",
+    src: "/images/mechanic-portrait.jpg",
+    alt: "Mechanic technician portrait",
+    title: "Craft-focused paint correction",
+    category: "Paint"
+  },
+  {
+    id: "g6",
+    src: "/images/shop-interior.jpg",
+    alt: "Wide interior shot of service facility",
+    title: "Organized local service facility",
+    category: "Shop"
+  },
+  {
+    id: "g7",
+    src: "/images/white-car.jpg",
+    alt: "Vehicle service in progress",
+    title: "Brake and suspension refresh",
+    category: "Mechanical"
+  },
+  {
+    id: "g8",
+    src: "/images/mechanic-portrait.jpg",
+    alt: "Technician assessing repair plan",
+    title: "Hands-on fault isolation",
+    category: "Mechanical"
+  },
+  {
+    id: "g9",
+    src: "/images/supercar-shop.jpg",
+    alt: "High-end car undergoing body work",
+    title: "Collision restoration finish pass",
+    category: "Body Work"
+  },
+  {
+    id: "g10",
+    src: "/images/wash-bay.jpg",
+    alt: "Vehicle surface cleaning in wash bay",
+    title: "Ceramic-ready surface prep",
+    category: "Detailing"
+  },
+  {
+    id: "g11",
+    src: "/images/shop-interior.jpg",
+    alt: "Service shop aisle and tools",
+    title: "Clean bay paint prep standard",
+    category: "Paint"
+  },
+  {
+    id: "g12",
+    src: "/images/supercar-shop.jpg",
+    alt: "Premium shop environment and vehicle",
+    title: "Premium service floor",
+    category: "Shop"
   }
 ];

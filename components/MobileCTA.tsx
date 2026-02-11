@@ -14,7 +14,7 @@ export function MobileCTA() {
         </a>
         <Link
           href={siteConfig.estimateHref}
-          className="flex-1 rounded-lg border border-midGray/40 px-4 py-3 text-center text-sm font-semibold text-charcoal"
+          className="flex-1 rounded-lg bg-deepNavy px-4 py-3 text-center text-sm font-semibold text-white"
         >
           Get Estimate
         </Link>

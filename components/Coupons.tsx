@@ -31,7 +31,7 @@ export function Coupons() {
       </div>
       <div className="grid gap-4 md:grid-cols-3">
         {offers.map((offer) => (
-          <article key={offer.title} className="rounded-2xl border border-midGray/30 bg-lightGray p-5 shadow-card">
+          <article key={offer.title} className="rounded-2xl border border-midGray/30 bg-white p-5 shadow-card">
             <h3 className="font-heading text-xl font-semibold text-charcoal">{offer.title}</h3>
             <p className="mt-3 text-sm text-midGray">{offer.detail}</p>
             <p className="mt-4 text-xs uppercase tracking-wide text-midGray">Limited time offer</p>

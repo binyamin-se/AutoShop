@@ -19,7 +19,7 @@ export default function ReviewsPage() {
       </p>
       <section className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
         {testimonials.map((quote, i) => (
-          <article key={quote} className="rounded-xl border border-midGray/30 bg-lightGray p-5 shadow-card">
+          <article key={quote} className="rounded-xl border border-midGray/30 bg-white p-5 shadow-card">
             <p className="text-midGray">&ldquo;{quote}&rdquo;</p>
             <p className="mt-3 text-xs font-semibold uppercase tracking-wide text-midGray">
               Verified customer #{i + 1}
@@ -27,7 +27,7 @@ export default function ReviewsPage() {
           </article>
         ))}
       </section>
-      <section className="mt-8 rounded-2xl border border-dashed border-midGray/40 bg-lightGray p-8 text-center">
+      <section className="mt-8 rounded-2xl border border-dashed border-midGray/40 bg-white p-8 text-center">
         <h2 className="font-heading text-2xl font-bold text-charcoal">Google Reviews Embed Placeholder</h2>
         <p className="mt-2 text-sm text-midGray">
           Replace with approved embed snippet in production.

@@ -24,7 +24,7 @@ function ServiceList({
       <h2 className="font-heading text-3xl font-bold text-charcoal">{heading}</h2>
       <div className="mt-6 grid gap-4">
         {items.map((service) => (
-          <article id={service.id} key={service.id} className="rounded-xl border border-midGray/30 bg-lightGray p-5 shadow-card">
+          <article id={service.id} key={service.id} className="rounded-xl border border-midGray/30 bg-white p-5 shadow-card">
             <h3 className="font-heading text-2xl font-semibold text-charcoal">{service.title}</h3>
             <p className="mt-2 text-midGray">{service.description}</p>
             <h4 className="mt-4 text-sm font-semibold uppercase tracking-wide text-midGray">Symptoms</h4>
@@ -71,7 +71,7 @@ export default function ServicesPage() {
         <section id="body">
           <ServiceList heading="B) Collision/Body & Paint" items={bodyServices} />
         </section>
-        <section className="rounded-2xl border border-midGray/30 bg-lightGray p-7 shadow-card">
+        <section className="rounded-2xl border border-midGray/30 bg-white p-7 shadow-card">
           <h2 className="font-heading text-3xl font-bold text-charcoal">What to Expect</h2>
           <ol className="mt-4 grid gap-3 text-midGray md:grid-cols-2">
             <li>1. Call/Book</li>
@@ -80,7 +80,7 @@ export default function ServicesPage() {
             <li>4. Repair + warranty</li>
           </ol>
         </section>
-        <section className="rounded-2xl border border-midGray/30 bg-lightGray p-7 shadow-card">
+        <section className="rounded-2xl border border-midGray/30 bg-white p-7 shadow-card">
           <h2 className="font-heading text-3xl font-bold text-charcoal">Service Area</h2>
           <p className="mt-3 text-midGray">{siteConfig.serviceAreas.join(", ")}</p>
         </section>

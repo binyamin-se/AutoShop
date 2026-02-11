@@ -37,7 +37,7 @@ export function ContactForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-4 rounded-2xl border border-midGray/30 bg-lightGray p-6">
+    <form onSubmit={handleSubmit} className="space-y-4 rounded-2xl border border-midGray/20 bg-white p-6 shadow-card">
       <h2 className="font-heading text-2xl font-bold text-charcoal">Request Service or Estimate</h2>
       <p className="text-sm text-midGray">
         Upload photos for a faster estimate (optional). UI only in this demo.
@@ -47,7 +47,7 @@ export function ContactForm() {
           Name *
           <input
             aria-label="Name"
-            className="mt-1 w-full rounded-lg border border-midGray/40 px-3 py-2"
+            className="mt-1 w-full rounded-lg border border-midGray/30 bg-lightGray px-3 py-2"
             value={formState.name}
             onChange={(e) => setFormState((s) => ({ ...s, name: e.target.value }))}
           />
@@ -56,7 +56,7 @@ export function ContactForm() {
           Phone *
           <input
             aria-label="Phone number"
-            className="mt-1 w-full rounded-lg border border-midGray/40 px-3 py-2"
+            className="mt-1 w-full rounded-lg border border-midGray/30 bg-lightGray px-3 py-2"
             value={formState.phone}
             onChange={(e) => setFormState((s) => ({ ...s, phone: e.target.value }))}
           />
@@ -66,7 +66,7 @@ export function ContactForm() {
           <input
             type="email"
             aria-label="Email"
-            className="mt-1 w-full rounded-lg border border-midGray/40 px-3 py-2"
+            className="mt-1 w-full rounded-lg border border-midGray/30 bg-lightGray px-3 py-2"
             value={formState.email}
             onChange={(e) => setFormState((s) => ({ ...s, email: e.target.value }))}
           />
@@ -75,7 +75,7 @@ export function ContactForm() {
           Car Make/Model
           <input
             aria-label="Car make and model"
-            className="mt-1 w-full rounded-lg border border-midGray/40 px-3 py-2"
+            className="mt-1 w-full rounded-lg border border-midGray/30 bg-lightGray px-3 py-2"
             value={formState.car}
             onChange={(e) => setFormState((s) => ({ ...s, car: e.target.value }))}
           />
@@ -85,7 +85,7 @@ export function ContactForm() {
         Service Needed *
         <input
           aria-label="Service needed"
-          className="mt-1 w-full rounded-lg border border-midGray/40 px-3 py-2"
+          className="mt-1 w-full rounded-lg border border-midGray/30 bg-lightGray px-3 py-2"
           value={formState.service}
           onChange={(e) => setFormState((s) => ({ ...s, service: e.target.value }))}
         />
@@ -95,7 +95,7 @@ export function ContactForm() {
         <textarea
           aria-label="Message"
           rows={4}
-          className="mt-1 w-full rounded-lg border border-midGray/40 px-3 py-2"
+          className="mt-1 w-full rounded-lg border border-midGray/30 bg-lightGray px-3 py-2"
           value={formState.message}
           onChange={(e) => setFormState((s) => ({ ...s, message: e.target.value }))}
         />
